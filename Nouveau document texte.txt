@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaguetteCoin - The Crunchiest Memecoin</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #FFD700, #87CEEB);
+            color: #333;
+        }
+        header {
+            background: #FFA500;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            color: white;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .banner {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .banner img {
+            max-width: 90%;
+            border-radius: 10px;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #FF6347;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        footer {
+            background: #FFA500;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-icons img {
+            width: 40px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BaguetteCoin</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#tokenomics">Tokenomics</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#community">Community</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="banner.jpg" alt="BaguetteCoin Banner">
+    </div>
+
+    <section class="section" id="about">
+        <h2>About BaguetteCoin</h2>
+        <p>The crunchiest memecoin on the blockchain! Transform your wallet into a bakery with $BREAD. Join us for crispy gains and endless fun.</p>
+    </section>
+
+    <section class="section" id="tokenomics">
+        <h2>Tokenomics</h2>
+        <p>
+            <strong>Distribution:</strong>
+            <ul style="text-align: left; display: inline-block;">
+                <li>50% Community</li>
+                <li>30% Liquidity</li>
+                <li>10% Marketing</li>
+                <li>10% Team</li>
+            </ul>
+        </p>
+    </section>
+
+    <section class="section" id="roadmap">
+        <h2>Roadmap</h2>
+        <p>Phase 1: Launch and presale</p>
+        <p>Phase 2: Listing on PancakeSwap</p>
+        <p>Phase 3: NFTs and Play-to-Earn Game</p>
+    </section>
+
+    <section class="section" id="community">
+        <h2>Join Our Community</h2>
+        <p>Follow us on Twitter for the latest updates and fun memes!</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/BaguetteCoin00" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg" alt="Twitter Logo">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BaguetteCoin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
